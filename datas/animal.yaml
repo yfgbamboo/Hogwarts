@@ -1,0 +1,33 @@
+cat:
+  - &data1
+   name: "Miaomiao"
+   color: "grey"
+   age: 1
+   gender: "girl"
+
+  - &data2
+   name: "Wuwu"
+   color: "white"
+   age: 3
+   gender: "boy"
+
+dog:
+  - &data3
+   name: "Wangwang"
+   color: "yello"
+   age: 5
+   gender: "boy"
+
+  - &data4
+   name: "Wangcai"
+   color: "black"
+   age: 2
+   gender: "girl"
+
+default:
+  <<: *data4
+
+
+
+
+
